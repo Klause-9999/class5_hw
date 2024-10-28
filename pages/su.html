@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/x-icon" href="../assets/img/gtavilogo.png">
+    <link rel="stylesheet" type="text/css" href="../css/si.css">
+  </head>
+  <body>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="media.html">Media</a>
+      <a href="contact.html">Contact</a>
+      <a href="sm.html">Social Media</a>
+      <a href="si.html">Sign In</a>
+      <div class="animation start-home"></div>
+    </nav>
+    <div class="center">
+      <h1>Sign Up</h1>
+      <form method="get">
+        <div class="txt_field">
+          <input type="text" required>
+          <span></span>
+          <label>Username</label>
+        </div>
+        <div class="txt_field">
+          <input type="email" required>
+          <span></span>
+          <label>E-Mail</label>
+        </div>
+        <div class="txt_field">
+          <input type="text" onfocus="(this.type='date')"
+          onblur="(this.type='text')" required>
+          <span></span>
+          <label>Birth Date</label>
+        </div>
+        <div class="txt_field">
+          <input type="tel" required>
+          <span></span>
+          <label>Mobile Number</label>
+        </div>
+        <div class="txt_field">
+          <input type="password" required>
+          <span></span>
+          <label>Password</label>
+        </div>
+        <input type="submit" value="Login">
+        <div class="signup_link" style="color: #eca17a;">
+          Already have an account? <a href="si.html">Sign In</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
