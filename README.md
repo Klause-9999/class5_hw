@@ -1,2 +1,1 @@
-# class5_hw
-This is homework for 5th class
+https://klause-9999.github.io/class5_hw/
